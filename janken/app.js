@@ -1,4 +1,5 @@
 class App {
+
     constructor() {
         this.ROCK     = 1; // グー
         this.SCISSORS = 2; // チョキ
@@ -118,6 +119,7 @@ class App {
             else return 2;                      // playerBの勝ち
         }
     }
+
 }
 
 const app = new App();

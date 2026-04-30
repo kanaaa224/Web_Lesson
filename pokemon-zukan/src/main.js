@@ -1,4 +1,5 @@
 class App {
+
     constructor() {
         window.addEventListener('load', () => {
             this.initialize();
@@ -112,6 +113,7 @@ class App {
             .then(response => response.json())
             .then(data => callback(data))
     }
+
 }
 
 let app = new App();

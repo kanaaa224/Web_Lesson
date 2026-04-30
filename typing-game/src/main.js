@@ -10,6 +10,7 @@
 */
 
 class App {
+
     // コンストラクター
     constructor() {
         this.eventHandlers = []; // イベントハンドラー管理用
@@ -300,6 +301,7 @@ class App {
 
         return true;
     }
+
 }
 
 const app = new App(); // Appインスタンス生成

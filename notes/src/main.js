@@ -10,6 +10,7 @@
 */
 
 class App {
+
     constructor() {
         window.addEventListener('load', this.initialize.bind(this)); // ページのロードが完了したとき、initializeを実行
     }
@@ -96,6 +97,7 @@ class App {
     }
 
     edit() {}
+
 }
 
 const app = new App();
